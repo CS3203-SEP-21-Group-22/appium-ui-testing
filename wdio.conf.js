@@ -53,7 +53,7 @@ exports.config = {
     {
       platformName: "Android",
       "appium:platformVersion": "10",
-      "appium:deviceName": "Small Phone API",
+      "appium:deviceName": "Test Phone API",
       "appium:app": path.join(process.cwd(), "app/android/lab-tracker.apk"),
       "appium:automationName": "UIAutomator2",
     },
